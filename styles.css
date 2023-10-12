@@ -1,3 +1,6 @@
+* {
+  font-family: "DM Sans", "sans-serif";
+}
 body {
   font-family: "DM Sans", "sans-serif";
   background: #191919;
@@ -41,13 +44,12 @@ header {
 /* Main moment below ⬇️ */
 
 main {
-  padding-top: 40px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 40px 70px 0px 70px;
 }
 .welcome-photo {
   float: left;
   margin-right: 60px;
+  margin-bottom: 100px;
 }
 .promo {
   font-size: 70px;
@@ -64,4 +66,18 @@ main {
 }
 .listen-links ul li {
   margin-right: 17px;
+}
+.episodes-menu {
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  font-size: 64px;
+  margin-bottom: 66px;
+}
+.episodes-button {
+  background: #118da8;
+  border-radius: 6px;
+  padding: 12px 15px 12px 20px;
+  border: 0px;
+  font-size: 17px;
 }
