@@ -1,6 +1,3 @@
-* {
-  font-family: "DM Sans", "sans-serif";
-}
 body {
   font-family: "DM Sans", "sans-serif";
   background: #191919;
@@ -67,8 +64,10 @@ main {
 .listen-links ul li {
   margin-right: 17px;
 }
-.episodes-menu {
+.latest-menu {
   clear: both;
+}
+.episodes-menu {
   display: flex;
   justify-content: space-between;
   font-size: 64px;
@@ -80,4 +79,51 @@ main {
   padding: 12px 15px 12px 20px;
   border: 0px;
   font-size: 17px;
+  font-family: "DM Sans", "sans-serif";
+  color: #fff;
+  align-self: flex-start;
+  line-height: 27px;
 }
+.episode {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background: #000;
+  margin-bottom: 60px;
+  border-radius: 32px;
+}
+.episode-wrapper {
+  margin-left: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.tag {
+  background: #191919;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 16px;
+  align-self: flex-start;
+  margin-bottom: 48px;
+  margin-top: 7.5px;
+  line-height: 27px;
+}
+.episode-num {
+  color: #118da8;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.episode-header {
+  font-size: 64px;
+  margin-bottom: 28px;
+  line-height: 70.4px;
+}
+.episode-about {
+  color: #ffffffb2;
+  font-size: 22px;
+  margin-bottom: 18px;
+  line-height: 33px;
+}
+
+/* Latest episodes ⬆️ */
