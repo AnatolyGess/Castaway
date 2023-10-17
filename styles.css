@@ -127,3 +127,43 @@ main {
 }
 
 /* Latest episodes ⬆️ */
+
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.circle {
+  height: 112px;
+  width: 112px;
+  background: #118da8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.circle a {
+  display: flex;
+  align-self: center;
+}
+.circle a img {
+  align-self: center;
+}
+.profile-link {
+  color: #118da8;
+  font-size: 18px;
+  line-height: 27px;
+}
+.profile-header {
+  font-size: 65px;
+  line-height: 79px;
+}
+.profile-about {
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffffb2;
+}
