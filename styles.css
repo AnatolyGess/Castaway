@@ -174,3 +174,57 @@ main {
   color: #ffffffb2;
   margin-bottom: 33px;
 }
+
+/* Subscribe form ⬇️ */
+
+.subscribe-wrapper {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 75px;
+  margin: 200px 70px;
+  border-radius: 32px;
+}
+.subscribe-theme {
+  font-size: 18px;
+  color: #118da8;
+  line-height: 27px;
+}
+.subscribe-header {
+  font-size: 72px;
+  line-height: 79px;
+}
+.subscribe-left {
+  width: 40%;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50.2%;
+}
+.subscribe-form * {
+  margin-bottom: 20px;
+}
+.subscribe-button {
+  background: #191919;
+  border: none;
+  border-radius: 6px;
+  padding-top: 26px;
+  padding-bottom: 27px;
+  padding-left: 19px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffffb2;
+}
+.subscribe-submit {
+  background: #118da8;
+  color: #fff;
+  font-family: "DM Sans", "sans-serif";
+  align-self: start;
+  padding: 9px 15px 10px 19px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 28px;
+  border: none;
+}
