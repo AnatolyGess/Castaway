@@ -13,147 +13,53 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <div class="header__container">
-          <a href="#"><img src="./img/Castaway.svg" alt="Castaway" /></a>
-          <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Episodes</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+      <!-- Header -->
+      <header class="header">
+        <a href="#!"><img src="./img/Castaway.svg" alt="" /></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#!">Home</a></li>
+            <li><a href="#!">Episodes</a></li>
+            <li><a href="#!">About</a></li>
+            <li><a href="#!">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
-      <!-- Welcome block -->
-      <main>
-        <img src="./img/New Level.png" alt="" class="welcome-photo" />
-        <h2 class="promo">Take your podcast to the next level</h2>
-        <div class="listen-links">
-          <h5>Listen on</h5>
-          <ul>
-            <li>
-              <a href="#"><img src="./img/ICON1.png" alt="Spotify" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/ICON2.png" alt="Broadcast" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/ICON3.png" alt="Soundcloud" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/ICON4.png" alt="Apple Podcast" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/ICON5.png" alt="Overcast" /></a>
-            </li>
-          </ul>
+
+      <!-- Welcome -->
+      <section class="welcome">
+        <img
+          class="welcome-photo"
+          src="./img/First_small.png"
+          alt="Welcome photo"
+        />
+        <div class="welcome-content">
+          <h2 class="welcome-title">
+            Take your <br />
+            podcast to the next level
+          </h2>
+          <div class="welcome-listen">
+            <h4>Listen on</h4>
+            <ul class="listen-list">
+              <li>
+                <a href="#!"><img src="./img/ICON1.png" alt="1" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/ICON2.png" alt="2" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/ICON3.png" alt="3" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/ICON4.png" alt="4" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/ICON5.png" alt="5" /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- Latest menu ⬇️ -->
-        <section class="latest-menu">
-          <div class="episodes-menu">
-            <h2 class="episodes-header">Latest episodes</h2>
-            <button type="button" class="episodes-button">
-              <a href="#">View all episodes</a>
-            </button>
-          </div>
-          <article class="episode">
-            <img src="./img/Episodes3.png" alt="Audiorecord technic" />
-            <div class="episode-wrapper">
-              <div class="tag">Gear</div>
-              <div class="episode-num">Episode 3</div>
-              <h3 class="episode-header">
-                Should you get outboard audio gear?
-              </h3>
-              <p class="episode-about">
-                Is hardware really worth it when it comes to podcasting? The
-                answer is...it depends. Here’s our reasons on why you might want
-                to consider picking something up.
-              </p>
-              <button type="button" class="episodes-button">
-                <a href="#">View Episode Details</a>
-              </button>
-            </div>
-          </article>
-          <article class="episode">
-            <img src="./img/Episodes2.png" alt="Microphone" />
-            <div class="episode-wrapper">
-              <div class="tag">Tips & Tricks</div>
-              <div class="episode-num">Episode 2</div>
-              <h3 class="episode-header">
-                Mic tricks to take you to the next level
-              </h3>
-              <p class="episode-about">
-                Stop rolling with those default settings on your mic. These
-                small tweaks will take you from sounding good to great.
-              </p>
-              <button type="button" class="episodes-button">
-                <a href="#">View Episode Details</a>
-              </button>
-            </div>
-          </article>
-          <article class="episode">
-            <img src="./img/Episodes1.png" alt="Podcaster" />
-            <div class="episode-wrapper">
-              <div class="tag">Gear</div>
-              <div class="episode-num">Episode 1</div>
-              <h3 class="episode-header">The best microphone under $200</h3>
-              <p class="episode-about">
-                With so many microphones on the market, how are you supposed to
-                know what’s the best? Take a look at our top picks.
-              </p>
-              <button type="button" class="episodes-button">
-                <a href="#">View Episode Details</a>
-              </button>
-            </div>
-          </article>
-        </section>
-        <!-- Profile's block ⬇️ -->
-        <div class="profile-wrapper">
-          <div class="profile-left">
-            <div class="circle">
-              <a href=""><img src="./img/Arrow.png" alt="Link" /></a>
-            </div>
-            <p class="profile-link">Meet your host</p>
-            <h2 class="profile-header">Jacob Paulaner</h2>
-            <p class="profile-about">
-              Jacob has a background in audio engineering, and has been
-              podcasting since the early days.
-            </p>
-            <p class="profile-about">
-              He’s here to help you level up your game by sharing everything
-              he’s learned along the way.
-            </p>
-          </div>
-          <img src="./img/Jacob Paulaner.png" alt="Jacob Paulaner's photo" />
-        </div>
-        <!-- Subribe-form ⬇️ -->
-        <section class="subscribe-wrapper">
-          <div class="subscribe-left">
-            <div class="subscribe-theme">Email Newsletter</div>
-            <h2 class="subscribe-header">Subscribe for updates</h2>
-          </div>
-          <form action="" class="subscribe-form">
-            <input
-              type="text"
-              name="Name"
-              id=""
-              placeholder="Name"
-              class="subscribe-button"
-              required
-            />
-            <input
-              type="email"
-              name="Email"
-              id=""
-              placeholder="Email"
-              class="subscribe-button"
-              required
-            />
-            <input type="submit" value="Submit" class="subscribe-submit" />
-          </form>
-        </section>
-      </main>
+      </section>
     </div>
   </body>
 </html>
-431
