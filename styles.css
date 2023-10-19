@@ -48,7 +48,7 @@ body {
   content: "";
   position: absolute;
   display: block;
-  background-image: url(./img/Welcome-Lines.png);
+  background-image: url(./img/Welcome/Welcome-Lines.png);
   top: -27px;
   left: -27px;
   width: 68px;
@@ -60,9 +60,27 @@ body {
   margin: 0px 60px;
 }
 .welcome-title {
+  position: relative;
   font-size: 70px;
   line-height: 88px;
   margin: 294px 0 90px 0;
+}
+.welcome-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url(./img/Welcome/Welcome-Line.png);
+  width: 160px;
+  height: 104px;
+  bottom: -15px;
+  left: -2px;
+}
+.welcome-title span {
+  font-size: 75px;
+  letter-spacing: 2px;
+}
+.welcome-title b {
+  font-size: 80px;
 }
 .welcome-listen h4 {
   font-size: 15px;
@@ -73,3 +91,5 @@ body {
   display: flex;
   column-gap: 17px;
 }
+
+/* Episodes */
