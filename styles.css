@@ -5,7 +5,7 @@ body {
   font-size: 18px;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -16,6 +16,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 26px 0;
+  max-width: 1340px;
+  margin: 0 auto;
 }
 .nav-list {
   display: flex;
@@ -36,10 +38,8 @@ body {
 /* Welcome */
 
 .welcome {
-  max-width: 1400px;
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .welcome-photo {
   position: relative;
@@ -58,6 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px 60px;
+  max-width: 530px;
 }
 .welcome-title {
   position: relative;
@@ -86,10 +87,14 @@ body {
   font-size: 15px;
   line-height: 24px;
 }
-.listen-list {
+.welcome-listen-list {
   margin-top: 16px;
   display: flex;
   column-gap: 17px;
 }
 
 /* Episodes */
+
+.episodes {
+  padding: 100px 0 160px 0;
+}
