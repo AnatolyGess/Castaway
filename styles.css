@@ -19,6 +19,11 @@ body {
 a {
   color: #fff;
 }
+.classic-desc {
+  color: #118da8;
+  font-size: 18px;
+  line-height: 27px;
+}
 
 /* Header */
 
@@ -142,9 +147,6 @@ a {
   margin-top: 8px;
 }
 .episode-num {
-  color: #118da8;
-  font-size: 17px;
-  line-height: 27px;
   margin: 48px 0 18px 0;
 }
 .episode-title {
@@ -177,12 +179,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.about-legend {
-  color: #118da8;
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .about-title {
   font-size: 65px;
@@ -198,3 +195,45 @@ a {
 }
 
 /* Subscribe */
+
+.subscribe {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 75px 60px;
+  border-radius: 32px;
+}
+.subscribe h2 {
+  font-size: 72px;
+  line-height: 79px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  width: 522px;
+}
+.subscribe-form input {
+  color: #ffffffb2;
+  border: none;
+  border-radius: 6px;
+  line-height: 28px;
+  font-family: "DM Sans", sans-serif;
+}
+.subscribe-input {
+  padding: 26px 0 27px 19px;
+  background: #191919;
+  font-size: 24px;
+}
+.subscribe-form input:nth-child(even) {
+  /* Средний input */
+  margin: 20px 0;
+}
+.subscribe-submit {
+  background: #118da8;
+  padding: 9px 15px 10px 19px;
+  font-size: 15px;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+/* Reviews */
