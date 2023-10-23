@@ -202,6 +202,7 @@ a {
   justify-content: space-between;
   padding: 60px 60px 75px 60px;
   border-radius: 32px;
+  margin: 200px 0;
 }
 .subscribe h2 {
   font-size: 72px;
@@ -237,3 +238,34 @@ a {
 }
 
 /* Reviews */
+
+.reviews-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 321px 364px;
+  grid-gap: 16px;
+}
+.reviews-card {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  max-width: 423px;
+  border-radius: 32px;
+  padding: 52px 0 0 50px;
+}
+.reviews-images img:nth-child(even) {
+  margin: 0 5px;
+}
+.reviews-title {
+  font-size: 36px;
+  line-height: 43px;
+  max-width: 317px;
+  margin: 21px 0 19px;
+}
+.reviews-name {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffffb2;
+}
+
+/* Footer */
