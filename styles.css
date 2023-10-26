@@ -19,6 +19,14 @@ body {
 a {
   color: #fff;
 }
+.links-animation a:hover {
+  color: #118da8;
+  transition: color 0.1s ease-in;
+}
+.links-animation a:active {
+  color: #21c6eb;
+  transition: color 0.1s ease-in;
+}
 .classic-desc {
   color: #118da8;
   font-size: 18px;
@@ -43,12 +51,7 @@ a {
   line-height: 27px;
   padding: 20px;
 }
-.nav-list a {
-  color: #fff;
-}
 .nav-list a:hover {
-  color: #118da8;
-  transition: color 0.1s ease-in;
 }
 
 /* Welcome */
@@ -112,7 +115,7 @@ a {
 /* Episodes */
 
 .episodes {
-  padding: 100px 0 160px 0;
+  padding: 100px 0 260px 0;
 }
 .episodes-row {
   display: flex;
@@ -231,10 +234,14 @@ a {
 }
 .subscribe-submit {
   background: #118da8;
+  color: #ffffffb2;
   padding: 9px 15px 10px 19px;
   font-size: 15px;
-  font-weight: 700;
   align-self: flex-start;
+  letter-spacing: 1px;
+}
+.subscribe-submit:hover {
+  cursor: pointer;
 }
 
 /* Reviews */
@@ -290,10 +297,6 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 179px;
-}
-.footer-decoration a:hover {
-  color: #118da8;
-  transition: color 0.1s ease-in;
 }
 .footer-links a + a {
   margin-left: 17px;
